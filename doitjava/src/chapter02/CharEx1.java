@@ -8,6 +8,7 @@ public class CharEx1 {
 //			ch1 = 'BC'; //char 자료형은 1개의 문자만 입력 가능합니다.
 			int num1 = ch1;
 			System.out.println(num1); //대문자 'A'는 숫자 65와 같습니다.
+
 			
 			char ch2 = 66;
 			char ch3 = 67;
