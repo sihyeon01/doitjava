@@ -7,10 +7,10 @@ public class DiceEx2 {
 		if(dice <=6 ) {
 			switch (dice) {
 			case 1 : 
-				System.out.println("");
+				System.out.println("주사위의 눈금은 1입니다.");
 				break;
 			case 2 :
-				System.out.println("");
+				System.out.println("주사위의 눈금은 2입니다.");
 				break;
 			case 3 :
 				System.out.println("주사위의 눈금은 3입니다.");
