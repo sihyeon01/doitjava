@@ -8,6 +8,7 @@ public class ForEx2 {
 			System.out.println("æ»≥Á«œººø‰! " + i);
 		}
 		
+		
 //		System.out.println(i);
 	}
 
