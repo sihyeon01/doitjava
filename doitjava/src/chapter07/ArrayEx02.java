@@ -9,6 +9,7 @@ public class ArrayEx02 {
 
 		}
 		System.out.println(sum1);
+		
 
 		int[] arr2 = new int[5];
 		int sum2 = 0;
