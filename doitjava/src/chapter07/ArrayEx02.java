@@ -2,9 +2,9 @@ package chapter07;
 
 public class ArrayEx02 {
 	public static void main(String[] args) {
-		int[] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8 };
+		int[] arr1 = { 1, 2, 3, 4, 5, 6, 7, 8 };	// [] 값의 앞뒤 위치 상관없이 사용 가능함.
 		int sum1 = 0;
-		for (int i = 0; i < arr1.length; i++) {
+		for (int i = 0; i < arr1.length; i++) {    // length 는 { } 안을 자동으로 계산함.
 			sum1 += arr1[i];
 
 		}
