@@ -9,7 +9,8 @@ public class ArrayEx05 {
 		}
 
 		int[] arr1 = { 1, 2 };
-		int[] arr2 = { 3, 4 };
+		int[] arr2 = { 3, 4 };		
+	
 		int array[][] = new int[2][]; // [ ] [ ] 두 번 작성하면 2차원 배열
 		array[0] = arr1;
 		array[1] = arr2;
@@ -23,3 +24,4 @@ public class ArrayEx05 {
 
 	}
 }
+
