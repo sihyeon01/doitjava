@@ -3,6 +3,7 @@ package chapter07;
 public class Args {
 
 	public static void main(String[] args) {
+//		args = {}; 첫 줄에 자동으로 생성됨
 		if (args.length != 0) {
 			for (int i = 0; i < args.length; i++) {
 				System.out.println(args[i]);
@@ -13,4 +14,4 @@ public class Args {
 	}
 }
 
-// Run → Run configuration → 클래스 선택 → Arguments 에서 입력 
+// 외부 입력 방법 : Run → Run configuration → 클래스 선택 → Arguments 에서 입력 
