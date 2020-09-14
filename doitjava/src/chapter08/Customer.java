@@ -8,11 +8,19 @@ public class Customer {
 	double bonusRatio;
 
 	public Customer() {
-		customerGrade = "SILVER";
-		bonusRatio = 0.01;
+		initCustomer();
 
 	}
-
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+		initCustomer();
+	}
+	private void initCustomer() {
+		customerGrade = "SILVER";
+		bonusRatio = 0.01;
+	}
+	
 	public int calcPrice(int price) {
 		bonusPoint += price * bonusRatio;
 		return price;
